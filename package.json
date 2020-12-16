@@ -1,0 +1,34 @@
+{
+  "name": "rtsp-electron-shell",
+  "version": "1.0.0",
+  "description": "A Electron rtsp project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-packager . --electron-version 11.1.0 --arch=x64 --overwrite --ignore=node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongqiang12/rtsp-electron-shell.git"
+  },
+  "keywords": [
+    "rtsp",
+    "electron",
+    "mpv"
+  ],
+  "author": "zhouhongqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongqiang12/rtsp-electron-shell/issues"
+  },
+  "homepage": "https://github.com/hongqiang12/rtsp-electron-shell#readme",
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-packager": "^15.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "mpv.js": "^0.3.0"
+  }
+}
